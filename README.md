@@ -6,23 +6,19 @@ I'm **Sanidhya Mitra**, a **Data Analyst** with a deep passion for transforming 
 ![Coding](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Black%20Technology%20LinkedIn%20Banner%20(1).png)
 ---
 
-## Philosophy:
-Guided by the principle of Sherlock Holmes, **"Never theorize before you have data"**,  I investigate complex datasets and delve into the depths of data to unearth insights. I believe in digging deep into data to uncover not just the 'what' but the 'why' and 'how', helping businesses navigate through the fog of uncertainty and into clear, strategic outcomes.
+## Core Competencies 🛠️:
 
+| Competency            | Description                                              |
+|-----------------------|----------------------------------------------------------|
+| **Python & SQL**      | Proficiency in scripting and database queries.           |
+| **Data Analytics**    | Advanced data extraction and analysis.                   |
+| **Visualization**     | Skilled in Power BI and Tableau for insightful visuals.  |
+| **Statistical Analysis** | Strong foundation in statistical methodologies.       |
+| **Business Intelligence** | Experience in transforming data into BI solutions.   |
+| **Machine Learning**  | Applying predictive models to real-world scenarios.      |
 
-## Core Competencies:
+## Tools and Software 🧰:
 
-- **Python & SQL:** Proficiency in scripting and database queries.
-- **Data Analytics & Mining:** Advanced ability to extract and analyze data.
-- **Visualization Tools:** Skilled in using Power BI and Tableau for insightful visuals.
-- **Statistical Analysis:** Strong foundation in statistical methodologies.
-- **Business Intelligence:** Experience in transforming data into BI solutions.
-- **Machine Learning:** Applying predictive models to real-world business scenarios.
-
-
-## Tools and Softwares:
-
-<div>
 <img alt="Tableau" width="40px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"/>
 <img alt="Power BI" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/>
 <img alt="Excel" width="40px" src="https://cdn.worldvectorlogo.com/logos/excel-4.svg"/>
@@ -30,34 +26,35 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
 <img alt="Python" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
 <img alt="MySQL" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
 <img alt="GitHub" width="40px" src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"/>
-</div>
 
-## Examples of Work
+## Examples of Work 👀
 
-<div>
-<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif" width="500" alt="Amazon Dashboard">
-<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/HR_Dashboard.gif" width="500" alt="HR Dashboard">
-</div>
+<details><summary>Click to view dashboards</summary>
+<p>
 
+![Amazon Dashboard](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif)
+![HR Dashboard](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/HR_Dashboard.gif)
 
-## Favorite Quote:
+</p>
+</details>
 
-> "Never theorize before you have data. Invariably, you end up twisting facts to suit theories, instead of theories to suit facts. The temptation to form premature theories upon insufficient data is the bane of our profession."
+## Favorite Quote 📜:
+
+> "Never theorize before you have data. Invariably, you end up twisting facts to suit theories, instead of theories to suit facts."
 > 
-> — Sherlock Holmes via Sir Arthur Conan Doyle
+> — Sherlock Holmes
 
+## Connect with Me 🌐:
 
-## Connect with Me:
+[![LinkedIn][LinkedIn-img]][LinkedIn-url]
 
-<a href="https://www.linkedin.com/in/sanidhya-mitra">
-    <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="LinkedIn" width="30px">
-</a>
-<br><br>
+<!-- Definitions for links and images -->
+[LinkedIn-img]: https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg
+[LinkedIn-url]: https://www.linkedin.com/in/sanidhya-mitra
 
 <div align="center">
 Thank you for visiting my profile. Explore my repositories to see my projects and contributions to the data science community. Let's innovate and solve complex problems together!
 
-<div style="margin-top: 10px;">
-  <a href="https://github.com/sanidhya-mitra/sanidhya-mitra/issues"><img src="https://img.shields.io/badge/Issue-Open-brightgreen" alt="Issue Open Badge"></a>
-  <a href="https://github.com/sanidhya-mitra/sanidhya-mitra/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-blue" alt="PRs Welcome Badge"></a>
+![Issues Open](https://img.shields.io/github/issues/sanidhya-mitra/sanidhya-mitra)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 </div>
