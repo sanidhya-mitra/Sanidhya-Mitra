@@ -34,8 +34,10 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
 
 ## Examples of Work
 
-<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif" width="500" alt="Amazon Dashboard"><br><br>
+<div>
+<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif" width="500" alt="Amazon Dashboard">
 <img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/HR_Dashboard.gif" width="500" alt="HR Dashboard">
+</div>
 
 
 ## Favorite Quote:
