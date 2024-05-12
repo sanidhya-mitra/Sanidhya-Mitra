@@ -22,14 +22,15 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
 
 ## Tools and Softwares:
 
-<img align="left" alt="Tableau" width="30px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"/>
-<img align="left" alt="Power_BI" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/>
-<img align="left" alt="Excel" width="30px" src="https://cdn.worldvectorlogo.com/logos/excel-4.svg"/>
-<img align="left" alt="Git" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
-<img align="left" alt="Python" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
-<img align="left" alt="MySQL" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
-<img align="left" alt="GitHub" width="30px" src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"/>
-<br clear="left"/>
+<div>
+<img alt="Tableau" width="40px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"/>
+<img alt="Power BI" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/>
+<img alt="Excel" width="40px" src="https://cdn.worldvectorlogo.com/logos/excel-4.svg"/>
+<img alt="Git" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
+<img alt="Python" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+<img alt="MySQL" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
+<img alt="GitHub" width="40px" src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"/>
+</div>
 
 ## Examples of Work
 
