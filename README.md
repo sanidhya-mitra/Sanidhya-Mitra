@@ -50,6 +50,4 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
     <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="LinkedIn" style="width: 30px; height: 30px;">
 </a>
 
----
-
 Thank you for visiting my profile. Explore my repositories to see my projects and contributions to the data science community. Let's innovate and solve complex problems together!
