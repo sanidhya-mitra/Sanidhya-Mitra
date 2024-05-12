@@ -50,7 +50,14 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
 ## Connect with Me:
 
 <a href="https://www.linkedin.com/in/sanidhya-mitra">
-    <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="LinkedIn" style="width: 30px; height: 30px;">
+    <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="LinkedIn" width="30px">
 </a>
 <br><br>
+
+<div align="center">
 Thank you for visiting my profile. Explore my repositories to see my projects and contributions to the data science community. Let's innovate and solve complex problems together!
+
+<div style="margin-top: 10px;">
+  <a href="https://github.com/sanidhya-mitra/sanidhya-mitra/issues"><img src="https://img.shields.io/badge/Issue-Open-brightgreen" alt="Issue Open Badge"></a>
+  <a href="https://github.com/sanidhya-mitra/sanidhya-mitra/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-blue" alt="PRs Welcome Badge"></a>
+</div>
