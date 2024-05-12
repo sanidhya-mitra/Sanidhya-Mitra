@@ -22,7 +22,7 @@ I'm **Sanidhya Mitra**, a **Data Analyst** with a deep passion for transforming 
 <table>
 <tr>
     <td align="center"><img alt="Tableau" width="37px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"/><br>Tableau</td>
-    <td align="center"><img alt="Python" width="371px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><br>Python</td>
+    <td align="center"><img alt="Python" width="37px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><br>Python</td>
     <td align="center"><img alt="Excel" width="37px" src="https://cdn.worldvectorlogo.com/logos/excel-4.svg"/><br>Excel</td>
     <td align="center"><img alt="Power BI" width="37px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/><br>Power BI</td>
 </tr>
