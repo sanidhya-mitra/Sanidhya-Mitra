@@ -1,9 +1,9 @@
 ### Welcome to my space on GitHub! Allow me to introduce myself!!👋
 ---
-![Coding](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Black%20Technology%20LinkedIn%20Banner%20(1).png)
 
 I'm **Sanidhya Mitra**, a **Data Analyst** with a deep passion for transforming complex datasets into actionable business insights. My analytical approach ensures that data isn't just numbers, but a roadmap to solving complex business challenges and sculpting the contours of enduring progress. I call this process as <i><b>"Breathing Life Into Barren Data"</b><br></i>
 
+![Coding](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Black%20Technology%20LinkedIn%20Banner%20(1).png)
 ---
 
 ## Philosophy:
