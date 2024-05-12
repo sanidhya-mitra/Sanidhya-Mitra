@@ -21,16 +21,16 @@ I'm **Sanidhya Mitra**, a **Data Analyst** with a deep passion for transforming 
 
 <table>
 <tr>
-    <td align="center"><img alt="Tableau" width="37px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"/><br>Tableau</td>
-    <td align="center"><img alt="Python" width="37px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><br>Python</td>
-    <td align="center"><img alt="Excel" width="37px" src="https://cdn.worldvectorlogo.com/logos/excel-4.svg"/><br>Excel</td>
-    <td align="center"><img alt="Power BI" width="37px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/><br>Power BI</td>
+    <td align="center"><img alt="Tableau" width="35px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"/><br>Tableau</td>
+    <td align="center"><img alt="Python" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><br>Python</td>
+    <td align="center"><img alt="Excel" width="35px" src="https://cdn.worldvectorlogo.com/logos/excel-4.svg"/><br>Excel</td>
+    <td align="center"><img alt="Power BI" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/><br>Power BI</td>
 </tr>
 <tr>
-    <td align="center"><img alt="Git" width="37px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/><br>Git</td>
-    <td align="center"><img alt="MySQL" width="37px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/><br>MySQL</td>
-    <td align="center"><img alt="GitHub" width="37px" src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"/><br>GitHub</td>
-    <td align="center"><img alt="Git" width="37px" src="https://www.svgrepo.com/show/373718/jupyter.svg"/><br>Jupyter Lab</td>
+    <td align="center"><img alt="Git" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/><br>Git</td>
+    <td align="center"><img alt="MySQL" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/><br>MySQL</td>
+    <td align="center"><img alt="GitHub" width="35px" src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"/><br>GitHub</td>
+    <td align="center"><img alt="Git" width="35px" src="https://www.svgrepo.com/show/373718/jupyter.svg"/><br>Jupyter Lab</td>
 </tr>
 </table>
 
