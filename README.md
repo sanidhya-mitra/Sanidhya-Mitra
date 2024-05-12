@@ -1,4 +1,4 @@
-### Welcome to my space on GitHub! Allow me to introduce myself!!👋
+### Welcome to my GitHub space—let me introduce myself! 👋
 ---
 
 I'm **Sanidhya Mitra**, a **Data Analyst** with a deep passion for transforming complex datasets into actionable business insights. My analytical approach ensures that data isn't just numbers, but a roadmap to solving complex business challenges and sculpting the contours of enduring progress. I call this process as <i><b>"Breathing Life Into Barren Data"</b><br></i>
