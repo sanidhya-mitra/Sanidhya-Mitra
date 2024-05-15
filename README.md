@@ -76,12 +76,12 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
 <br> <!-- Conceptual HTML - For platforms supporting HTML/CSS -->
 <div align="center">
 <strong>Let's stay connected!</strong> Follow me for professional updates and insights.<br><br>
-<a href="https://github.com/sanidhya-mitra"><img src='https://cdn.worldvectorlogo.com/logos/github-icon-2.svg' alt='GitHub' height='50'></a>
+<a href="https://github.com/sanidhya-mitra"><img src='https://cdn.worldvectorlogo.com/logos/github-icon-2.svg' alt='GitHub' height='35'></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/sanidhya-mitra/"><img src='https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg' alt='LinkedIn' height='50'></a>
+<a href="https://www.linkedin.com/in/sanidhya-mitra/"><img src='https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg' alt='LinkedIn' height='35'></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://public.tableau.com/app/profile/sanidhya.mitra4662/vizzes"><img src='https://cdn.worldvectorlogo.com/logos/tableau-software.svg' alt='Tableau' height='50'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://snapchat.com/add/sanidhyamitra?share_id=iZQoU9yu2LE&locale=en-GB"><img src='https://www.svgrepo.com/show/382734/snapchat-snap-chat.svg' alt='Snapchat' height='50'></a>
+<a href="https://public.tableau.com/app/profile/sanidhya.mitra4662/vizzes"><img src='https://cdn.worldvectorlogo.com/logos/tableau-software.svg' alt='Tableau' height='35'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://snapchat.com/add/sanidhyamitra?share_id=iZQoU9yu2LE&locale=en-GB"><img src='https://www.svgrepo.com/show/382734/snapchat-snap-chat.svg' alt='Snapchat' height='35'></a>
 </div><br>
 
 <div align="center">
