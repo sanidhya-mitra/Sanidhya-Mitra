@@ -3,8 +3,10 @@
 
 I'm **Sanidhya Mitra**, a **Data Analyst** with a deep passion for transforming complex datasets into actionable business insights. My analytical approach ensures that data isn't just numbers, but a roadmap to solving complex business challenges and sculpting the contours of enduring progress. I call this process as <i><b>"Breathing Life Into Barren Data"</b><br></i>
 
-![Coding](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Black%20Technology%20LinkedIn%20Banner%20(1).png)
+![Coding](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Banner.png)
 ---
+## Philosophy:
+Guided by the principle of Sherlock Holmes, **"Never theorize before you have data"**,  I investigate complex datasets and delve into the depths of data to unearth insights. I believe in digging deep into data to uncover not just the 'what' but the 'why' and 'how', helping businesses navigate through the fog of uncertainty and into clear, strategic outcomes.
 
 ## Core Competencies 🛠️:
 
@@ -35,31 +37,52 @@ I'm **Sanidhya Mitra**, a **Data Analyst** with a deep passion for transforming 
 </table>
 
 
+## Examples of Work 👀:
 
-## Examples of Work 👀
-
-<details><summary>Click to view dashboards</summary>
+<details><summary>Click To View Dashboards</summary>
 <p>
 
-![Amazon Dashboard](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif)
-![HR Dashboard](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/HR_Dashboard.gif)
+<div align="center">
+<strong>Amazon Dashboard</strong><br>
+&#9432; <i>An overview of Amazon's revenue, orders, delivery metrics and operations.</i><br><br>
+<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif" alt="Amazon Dashboard"><br><br>
+&emsp;.............................................................
+</div><br><br>
+
+<div align="center">
+<strong>HR Analytics Dashboard</strong><br>
+&#9432; <i>Detailed analytics of employee metrics.</i><br><br>
+<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/HR%20Dashboard.gif" alt="HR Dashboard"><br><br>
+&emsp;.............................................................
+</div><br><br>
+
+<div align="center">
+<strong>Amazon Prime Video Dashboard</strong><br>
+&#9432; <i>Analytics for viewer trends and content strategy.</i><br><br>
+<img src="https://github.com/sanidhya-mitra/Amazon_Prime_Video_Dashboard_Project/blob/main/Amazon%20Prime%20Dashboard.gif" alt="Amazon Prime Video Dashboard"><br><br>
+</div><br>
 
 </p>
 </details>
 
 ## Favorite Quote 📜:
 
-> "Never theorize before you have data. Invariably, you end up twisting facts to suit theories, instead of theories to suit facts."
+> "Never theorize before you have data. Invariably, you end up twisting facts to suit theories, instead
+> of theories to suit facts. The temptation to form premature theories upon insufficient data is the
+> bane of our profession."
 > 
 > — Sherlock Holmes
 
-## Connect with Me 🌐:
-
-[![LinkedIn][LinkedIn-img]][LinkedIn-url]
-
-<!-- Definitions for links and images -->
-[LinkedIn-img]: https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg
-[LinkedIn-url]: https://www.linkedin.com/in/sanidhya-mitra
+<br> <!-- Conceptual HTML - For platforms supporting HTML/CSS -->
+<div align="center">
+<strong>Let's stay connected!</strong> Follow me for professional updates and insights.<br><br>
+<a href="https://github.com/sanidhya-mitra"><img src='https://cdn.worldvectorlogo.com/logos/github-icon-2.svg' alt='GitHub' height='50'></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/sanidhya-mitra/"><img src='https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg' alt='LinkedIn' height='50'></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://public.tableau.com/app/profile/sanidhya.mitra4662/vizzes"><img src='https://cdn.worldvectorlogo.com/logos/tableau-software.svg' alt='Tableau' height='50'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://snapchat.com/add/sanidhyamitra?share_id=iZQoU9yu2LE&locale=en-GB"><img src='https://www.svgrepo.com/show/382734/snapchat-snap-chat.svg' alt='Snapchat' height='50'></a>
+</div><br>
 
 <div align="center">
 Thank you for visiting my profile. Explore my repositories to see my projects and contributions to the data science community. Let's innovate and solve complex problems together!
