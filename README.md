@@ -50,6 +50,13 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
 </div><br><br>
 
 <div align="center">
+<strong>London's Public Bike-Sharing Analytics</strong><br>
+&#9432; <i>Analysis of London's bike rental patterns using interactive charts and dynamic tooltips.</i><br><br>
+<img src="https://github.com/sanidhya-mitra/Pedal-Pulse-London/blob/main/Pedal%20Pulse%20London%20Dashboard.gif" alt="London's Bike-Share Dashboard"><br><br>
+&emsp;.............................................................
+</div><br><br>
+
+<div align="center">
 <strong>HR Analytics Dashboard</strong><br>
 &#9432; <i>Detailed analytics of employee metrics.</i><br><br>
 <img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/HR%20Dashboard.gif" alt="HR Dashboard"><br><br>
