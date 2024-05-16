@@ -45,28 +45,40 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
 <div align="center">
 <strong>Amazon Dashboard</strong><br>
 &#9432; <i>An overview of Amazon's revenue, orders, delivery metrics and operations.</i><br><br>
-<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif" alt="Amazon Dashboard"><br><br>
-&emsp;.............................................................
-</div><br><br>
+<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif" alt="Amazon Dashboard"><br>
+<a href="https://github.com/sanidhya-mitra/Amazon-PowerBI-Dashboard-Project"><br>
+Click Here to Explore
+</a><br><br>
+.............................................................
+</div><br>
 
 <div align="center">
 <strong>London's Public Bike-Sharing Analytics</strong><br>
 &#9432; <i>Analysis of London's bike rental patterns using interactive charts and dynamic tooltips.</i><br><br>
-<img src="https://github.com/sanidhya-mitra/Pedal-Pulse-London/blob/main/Pedal%20Pulse%20London%20Dashboard.gif" alt="London's Bike-Share Dashboard"><br><br>
-&emsp;.............................................................
-</div><br><br>
+<img src="https://github.com/sanidhya-mitra/Pedal-Pulse-London/blob/main/Pedal%20Pulse%20London%20Dashboard.gif" alt="London's Bike-Share Dashboard"><br>
+<a href="https://github.com/sanidhya-mitra/London_s-Bike-Share-Analysis"><br>
+Click Here to Explore
+</a><br><br>
+.............................................................
+</div><br>
 
 <div align="center">
 <strong>HR Analytics Dashboard</strong><br>
 &#9432; <i>Detailed analytics of employee metrics.</i><br><br>
-<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/HR%20Dashboard.gif" alt="HR Dashboard"><br><br>
-&emsp;.............................................................
-</div><br><br>
+<img src="https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/HR%20Dashboard.gif" alt="HR Dashboard"><br>
+<a href="https://github.com/sanidhya-mitra/HR-Analytics-Project"><br>
+Click Here to Explore
+</a><br><br>
+.............................................................
+</div><br>
 
 <div align="center">
 <strong>Amazon Prime Video Dashboard</strong><br>
 &#9432; <i>Analytics for viewer trends and content strategy.</i><br><br>
-<img src="https://github.com/sanidhya-mitra/Amazon_Prime_Video_Dashboard_Project/blob/main/Amazon%20Prime%20Dashboard.gif" alt="Amazon Prime Video Dashboard"><br><br>
+<img src="https://github.com/sanidhya-mitra/Amazon_Prime_Video_Dashboard_Project/blob/main/Amazon%20Prime%20Dashboard.gif" alt="Amazon Prime Video Dashboard"><br>
+<a href="https://github.com/sanidhya-mitra/Amazon-Prime-Video-Dashboard-Project"><br>
+Click Here to Explore
+</a><br><br>
 </div><br>
 
 </p>
