@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanidhya Mitra - Data Analyst</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+       body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #360033, #0b8793);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+        }
+
+        .content {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 0px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            opacity: 0;
+            transform: translateY(-20%);
+            animation: fadeInAnimation 1.5s forwards, slideInAnimation 1s forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInAnimation {
+            0% {
+                transform: translateY(-20%);
+            }
+            100% {
+                transform: translateY(0%);
+            }
+        }
+
+        /* Responsive adjustments */
+        @media screen and (max-width: 768px) {
+            .content {
+                padding: 10px;
+            }
+            .skill {
+                width: 100%; /* Make skills occupy full width on smaller screens */
+            }
+            .project-container {
+                width: 100%; /* Make project containers occupy full width on smaller screens */
+            }
+            .project-link {
+                font-size: 16px; /* Reduce font size for project links on smaller screens */
+            }
+        }
+
+        /* Styles for tablets and phones */
+        @media screen and (max-width: 480px) {
+            .skill {
+                width: 100%; /* Make skills occupy full width on smaller screens */
+            }
+            .project-container {
+                width: 100%; /* Make project containers occupy full width on smaller screens */
+            }
+            .project-link {
+                font-size: 14px; /* Reduce font size for project links on smaller screens */
+            }
+        }
+
+        /* Styles for laptops and desktops */
+        @media screen and (min-width: 769px) {
+            .skills-container {
+                flex-direction: row; /* Arrange skills horizontally on larger screens */
+            }
+            .skill {
+                width: 44%; /* Maintain skill width on larger screens */
+            }
+            .project-container {
+                width: 48%; /* Adjust project container width on larger screens */
+                margin: 0 auto; /* Center align project containers */
+            }
+        }
+
+    
+        .reveal {
+            opacity: 1;
+            transform: none;
+            margin-top: 0px;
+        }
+    
+        .dashboard-section {
+            align-self: center;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .project-container {
+    text-align: center;
+}
+
+/* Adjust margin for the project */
+.project {
+    margin: 0 auto;
+    display: inline-block;
+}
+        .tab {
+            display: none;
+        }
+    
+        .tab.active-tab {
+            display: block;
+        }
+    
+        .tab-button {
+            align-self: center;
+            background-color: #FFD700;
+            color: #1b1e20; /* Dark grey text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease; /* Add color transition */
+            display: inline-block;
+            text-decoration: none;
+            outline: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    
+        .tab-button:hover {
+            background-color: #800020; /* Burgundy red on hover */
+            transform: scale(1.05);
+            color: #fff; /* White text on hover */
+        }
+    
+        .tab-button:active {
+            transform: translateY(1px);
+            background-color: #FFD700;
+        }
+    
+        .tab-button a {
+            text-decoration: none;
+            color: #1b1e20; /* Dark grey text */
+        }
+        .quote-section {
+    padding-bottom: 50px; /* Add padding to the bottom of the container */
+}
+
+.quote-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust background color */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+}
+
+.quote-section blockquote {
+    position: relative; /* Make the blockquote position relative */
+    border-left: 5px solid #FFD700;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    margin: 30px 0; /* Adjust margin for spacing */
+    line-height: 1.5; /* Match the line height with the text */
+    padding-bottom: 50px; /* Add padding to the bottom of the blockquote */
+}
+
+.quote-section blockquote footer {
+    position: absolute; /* Position the footer absolutely */
+    bottom: -50px; /* Adjust the distance from the bottom */
+    left: 0;
+    color: #FFD700; /* Match the color of the line */
+}
+
+.quote-section blockquote::before {
+    content: ''; /* Add a pseudo-element for the line */
+    position: absolute;
+    top: 0;
+    bottom: 0; /* Set bottom to 0 to ensure the line doesn't extend beyond the quote */
+    left: -5px; /* Adjust the position to match the border */
+    width: 5px; /* Width of the line */
+    background-color: #FFD700; /* Match the color of the border */
+}
+
+
+        .section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust background color */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+}
+
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 20px; /* Add more space below the heading */
+    font-size: 24px;
+    color: #fff; /* Maintain white color for headings */
+}
+
+.section p {
+    color: #ddd; /* Adjust paragraph text color for better readability */
+}
+
+.section hr {
+    border-color: #FFD700; /* Adjust color of horizontal rule */
+}
+
+.section:last-child {
+    margin-bottom: 0; /* Remove margin bottom for the last section */
+}
+
+    
+        .connect-icons {
+            text-align: center;
+        }
+    
+        .connect-icons img {
+            margin-right: 30px;
+            display: inline-block;
+            transition: transform 0.3s ease;
+            height: 50px;
+        }
+    
+        .connect-icons img:hover {
+            transform: scale(1.5);
+        }
+    
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    
+        .skill {
+            width: 44%;
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            transition: transform 0.5s ease, background-color 0.3s ease;
+        }
+    
+        .skill:hover {
+            transform: translateY(-10px);
+            background-color: rgba(255, 255, 255, 0.95);
+        }
+    
+        .skill img {
+            max-width: 50px;
+            height: auto;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    
+        .skill-description {
+            color: #333;
+            flex-grow: 1;
+        }
+    
+        blockquote {
+    position: relative; /* Make the blockquote position relative */
+    border-left: 5px solid #FFD700;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    margin: 30px 0; /* Adjust margin for spacing */
+    line-height: 1.5; /* Match the line height with the text */
+}
+
+blockquote footer {
+    position: absolute; /* Position the footer absolutely */
+    bottom: -50px; /* Adjust the distance from the bottom */
+    left: 0;
+    color: #FFD700; /* Match the color of the line */
+}
+
+blockquote::before {
+    content: ''; /* Add a pseudo-element for the line */
+    position: absolute;
+    top: 0;
+    left: -5px; /* Adjust the position to match the border */
+    height: 100%; /* Set height to match the blockquote */
+    width: 5px; /* Width of the line */
+    background-color: #FFD700; /* Match the color of the border */
+}
+
+
+
+    
+        footer {
+            text-align: right;
+            color: #FFD700;
+        }
+    
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+        .footer .badge img {
+            vertical-align: middle;
+        }
+        <style>
+    /* Your existing styles... */
+
+    .project-link {
+        color: #800020; /* Burgundy red text */
+        text-decoration: none; /* Remove default underline */
+        font-size: 18px; /* Increase font size for better readability */
+        font-weight: bold; /* Make the font weight bold for emphasis */
+        letter-spacing: 1px; /* Add slight letter spacing for clarity */
+        padding-bottom: 2px; /* Add some space below the text for the border */
+        position: relative; /* Position relative for pseudo-element */
+        transition: color 0.3s ease; /* Add color transition */
+    }
+
+    .project-link {
+        color: #800020; /* Burgundy red text */
+        text-decoration: none; /* Remove default underline */
+        font-size: 18px; /* Increase font size for better readability */
+        font-weight: bold; /* Make the font weight bold for emphasis */
+        letter-spacing: 1px; /* Add slight letter spacing for clarity */
+        padding-bottom: 2px; /* Add some space below the text for the border */
+        position: relative; /* Position relative for pseudo-element */
+        transition: color 0.3s ease; /* Add color transition */
+    }
+
+    .project-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px; /* Thickness of the border */
+        background: linear-gradient(to right, #e0e0e0, #ffffff, #e0e0e0); /* Silver gradient */
+        visibility: hidden;
+        transform: scaleX(0); /* Initially hide the gradient */
+        transition: transform 0.3s ease, visibility 0s linear 0.3s; /* Add transition */
+    }
+
+    .project-link:hover::before {
+        visibility: visible;
+        transform: scaleX(1); /* Expand the gradient to full width on hover */
+        transition: transform 0.3s ease, visibility 0s linear; /* Adjust transition */
+    }
+
+    .project-link:hover {
+        color: #C0C0C0; /* Change text color to a lighter shade of gray on hover */
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+    <div class="content animate__animated animate__fadeIn animate__delay-1s">
+        <div class="section">
+            <h1>Welcome to my GitHub space—let me introduce myself!</h1>
+            <p>I'm <strong>Sanidhya Mitra</strong>, a <strong>Data Analyst</strong> with a deep passion for transforming complex datasets into actionable business insights. My analytical approach ensures that data isn't just numbers, but a roadmap to solving complex business challenges and sculpting the contours of enduring progress. I call this process as <b><i>Breathing Life Into Barren Data</i></b></p>
+            <img src="Banner.png" alt="Coding" style="max-width: 100%; border-radius: 10px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);">
+        </div>
+        <hr>
+
+        <div class="section">
+            <h2>Philosophy:</h2>
+            <p>Guided by the principle of Sherlock Holmes, <strong>"Never theorize before you have data"</strong>, I investigate complex datasets and delve into the depths of data to unearth insights. I believe in digging deep into data to uncover not just the 'what' but the 'why' and 'how', helping businesses navigate through the fog of uncertainty and into clear, strategic outcomes.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Core Competencies 🛠️:</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <span class="skill-description">Proficiency in scripting and database queries.</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Data Analytics">
+                    <span class="skill-description">Advanced data extraction and analysis.</span>
+                </div>
+                <div class="skill">
+                    <img src="https://www.svgrepo.com/show/354428/tableau-icon.svg" alt="Visualization">
+                    <span class="skill-description">Skilled in Power BI and Tableau for insightful visuals.</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="Statistical Analysis">
+                    <span class="skill-description">Strong foundation in statistical methodologies.</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="Business Intelligence">
+                    <span class="skill-description">Experience in transforming data into BI solutions.</span>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="Machine Learning">
+                    <span class="skill-description">Applying predictive models to real-world scenarios.</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <h2>Examples of Work 👀:</h2>
+            
+            <div id="amazon" class="tab active-tab">
+                <div class="project-container">
+                <h3>Amazon Dashboard</h3>
+                <p class="dashboard-caption">&#9432; <i>An overview of Amazon's revenue, orders, delivery metrics and operations.</i></p>
+                <img src="Amazon_Dashboard.gif" alt="Amazon Dashboard">
+                <p><a href="https://github.com/sanidhya-mitra/Amazon-PowerBI-Dashboard-Project" class="project-link">Click Here To Explore the Project</a></p>
+            </div>
+            </div>
+            <div class="project-container">
+            <div id="london" class="tab">
+                <h3>London's Public Bike-Sharing Analytics</h3>
+                <p class="dashboard-caption">&#9432; <i>Analysis of London's bike rental patterns using interactive charts and dynamic tooltips.</i></p>
+                <img src="Pedal Pulse London Dashboard.gif" alt="London's Bike-Share Dashboard">
+                <p><a href="https://github.com/sanidhya-mitra/London_s-Bike-Share-Analysis" class="project-link">Click Here to Explore the Project</a></p>
+            </div>
+            </div>
+            <div class="project-container">
+            <div id="hr" class="tab">
+                <h3>HR Analytics Dashboard</h3>
+                <p class="dashboard-caption">&#9432; <i>Detailed analytics of employee metrics.</i></p>
+                <img src="HR Dashboard.gif" alt="HR Dashboard">
+                <p><a href="https://github.com/sanidhya-mitra/HR-Analytics-Project" class="project-link">Click Here to Explore the Project</a></p>
+            </div>
+            </div>
+            <div class="project-container">
+            <div id="prime" class="tab">
+                <h3>Amazon Prime Video Dashboard</h3>
+                <p class="dashboard-caption">&#9432; <i>Analytics for viewer trends and content strategy.</i></p>
+                <img src="Amazon Prime Dashboard.gif" alt="Amazon Prime Video Dashboard">
+                <p><a href="https://github.com/sanidhya-mitra/Amazon-Prime-Video-Dashboard-Project" class="project-link">Click Here to Explore the Project</a></p>
+            </div>
+            </div>
+        <div class="dashboard-section">
+            <div>
+                <button class="tab-button" onclick="openTab('amazon')">Amazon Dashboard</button>
+                <button class="tab-button" onclick="openTab('london')">London's Bike-Sharing Analytics</button>
+                <button class="tab-button" onclick="openTab('hr')">HR Analytics Dashboard</button>
+                <button class="tab-button" onclick="openTab('prime')">Amazon Prime Video Dashboard</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="section quote-container">
+            <div class="quote-section">
+                <blockquote>
+                    <p>"Never theorize before you have data. Invariably, you end up twisting facts to suit theories, instead
+                        of theories to suit facts. The temptation to form premature theories upon insufficient data is the
+                        bane of our profession."</p>
+                    <footer>
+                        — Sherlock Holmes
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+        
+        
+
+        <div class="section">
+            <div class="connect-icons">
+                <strong>Let's stay connected!</strong> Follow me for professional updates and insights.<br><br>
+                <a href="https://github.com/sanidhya-mitra"><img src='https://cdn.worldvectorlogo.com/logos/github-icon-2.svg' alt='GitHub'></a>
+                <a href="https://www.linkedin.com/in/sanidhya-mitra/"><img src='https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg' alt='LinkedIn'></a>
+                <a href="https://public.tableau.com/app/profile/sanidhya.mitra4662/vizzes"><img src='https://cdn.worldvectorlogo.com/logos/tableau-software.svg' alt='Tableau'></a>
+                <a href="https://snapchat.com/add/sanidhyamitra?share_id=iZQoU9yu2LE&locale=en-GB"><img src='https://www.svgrepo.com/show/382734/snapchat-snap-chat.svg' alt='Snapchat'></a>
+            </div>
+            <div class="footer">
+                Thank you for visiting my profile. Explore my repositories to see my projects and contributions to the data science community. Let's innovate and solve complex problems together!<br><br>
+                <span class="badge"><img src="https://img.shields.io/github/issues/sanidhya-mitra/sanidhya-mitra" alt="Issues Open"></span>
+                <span class="badge"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        function openTab(tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+        }
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function(){
+                document.querySelector(".content").classList.add("reveal");
+            }, 500);
+        });
+    </script>
+</body>
+</html>
