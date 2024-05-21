@@ -6,48 +6,48 @@
     <title>Sanidhya Mitra - Data Analyst</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <style>
-       body {
+        body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom right, #360033, #0b8793);
+            background: linear-gradient(to bottom right, #4169e1, #87ceeb);
             color: #fff;
             overflow-x: hidden;
         }
 
         .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Add padding to prevent content from touching edges */
+    max-width: 100%; /* Allow content to spread to the full width */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+}
+
         }
 
         .content {
             padding: 20px;
             background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 0px;
+            border-radius: 10px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
             opacity: 0;
             transform: translateY(-20%);
             animation: fadeInAnimation 1.5s forwards, slideInAnimation 1s forwards;
+            max-width: 1000px; /* Limit the maximum width */
+            width: 100%; /* Make content responsive */
         }
 
         @keyframes fadeInAnimation {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
+            0% { opacity: 0; }
+            100% { opacity: 1; }
         }
 
         @keyframes slideInAnimation {
-            0% {
-                transform: translateY(-20%);
-            }
-            100% {
-                transform: translateY(0%);
-            }
+            0% { transform: translateY(-20%); }
+            100% { transform: translateY(0%); }
         }
 
         /* Responsive adjustments */
@@ -55,196 +55,168 @@
             .content {
                 padding: 10px;
             }
-            .skill {
-                width: 100%; /* Make skills occupy full width on smaller screens */
-            }
-            .project-container {
-                width: 100%; /* Make project containers occupy full width on smaller screens */
+            .skill, .project-container {
+                width: 100%; /* Full width on smaller screens */
             }
             .project-link {
-                font-size: 16px; /* Reduce font size for project links on smaller screens */
+                font-size: 16px; /* Reduce font size */
             }
         }
 
-        /* Styles for tablets and phones */
         @media screen and (max-width: 480px) {
-            .skill {
-                width: 100%; /* Make skills occupy full width on smaller screens */
-            }
-            .project-container {
-                width: 100%; /* Make project containers occupy full width on smaller screens */
+            .skill, .project-container {
+                width: 100%; /* Full width on smallest screens */
             }
             .project-link {
-                font-size: 14px; /* Reduce font size for project links on smaller screens */
+                font-size: 14px; /* Further reduce font size */
             }
         }
 
-        /* Styles for laptops and desktops */
-        @media screen and (min-width: 769px) {
-            .skills-container {
-                flex-direction: row; /* Arrange skills horizontally on larger screens */
-            }
-            .skill {
-                width: 44%; /* Maintain skill width on larger screens */
-            }
-            .project-container {
-                width: 48%; /* Adjust project container width on larger screens */
-                margin: 0 auto; /* Center align project containers */
-            }
-        }
-
-    
         .reveal {
             opacity: 1;
             transform: none;
-            margin-top: 0px;
+            margin-top: 0;
         }
-    
-        .dashboard-section {
-            align-self: center;
-            margin-bottom: 40px;
-            text-align: center;
-        }
-        .project-container {
-    text-align: center;
-}
 
-/* Adjust margin for the project */
-.project {
-    margin: 0 auto;
-    display: inline-block;
-}
+        .dashboard-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .project-container {
+            text-align: center;
+            margin: 20px 0; /* Add margin to separate projects */
+        }
+
+        .project {
+            margin: 0 auto;
+            display: inline-block;
+        }
+
         .tab {
             display: none;
         }
-    
+
         .tab.active-tab {
             display: block;
         }
-    
+
         .tab-button {
-            align-self: center;
             background-color: #FFD700;
-            color: #1b1e20; /* Dark grey text */
+            color: #1b1e20;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             padding: 10px 20px;
             font-size: 16px;
             margin: 5px;
-            transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease; /* Add color transition */
+            transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
             display: inline-block;
             text-decoration: none;
             outline: none;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-    
+
         .tab-button:hover {
-            background-color: #800020; /* Burgundy red on hover */
+            background-color: #800020;
             transform: scale(1.05);
-            color: #fff; /* White text on hover */
+            color: #fff;
         }
-    
+
         .tab-button:active {
             transform: translateY(1px);
             background-color: #FFD700;
         }
-    
-        .tab-button a {
-            text-decoration: none;
-            color: #1b1e20; /* Dark grey text */
-        }
+
         .quote-section {
-    padding-bottom: 50px; /* Add padding to the bottom of the container */
-}
+            padding-bottom: 50px;
+        }
 
-.quote-container {
-    margin-bottom: 30px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1); /* Adjust background color */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
-}
+        .quote-container {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
 
-.quote-section blockquote {
-    position: relative; /* Make the blockquote position relative */
-    border-left: 5px solid #FFD700;
-    padding-left: 10px;
-    font-style: italic;
-    font-size: 24px; /* Increase font size */
-    font-weight: bold; /* Make the text bold */
-    margin: 30px 0; /* Adjust margin for spacing */
-    line-height: 1.5; /* Match the line height with the text */
-    padding-bottom: 50px; /* Add padding to the bottom of the blockquote */
-}
+        .quote-section blockquote {
+            position: relative;
+            border-left: 5px solid #FFD700;
+            padding-left: 10px;
+            font-style: italic;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+            line-height: 1.5;
+        }
 
-.quote-section blockquote footer {
-    position: absolute; /* Position the footer absolutely */
-    bottom: -50px; /* Adjust the distance from the bottom */
-    left: 0;
-    color: #FFD700; /* Match the color of the line */
-}
+        .quote-section blockquote footer {
+            position: absolute;
+            bottom: -40px;
+            left: 0;
+            color: #FFD700;
+        }
 
-.quote-section blockquote::before {
-    content: ''; /* Add a pseudo-element for the line */
-    position: absolute;
-    top: 0;
-    bottom: 0; /* Set bottom to 0 to ensure the line doesn't extend beyond the quote */
-    left: -5px; /* Adjust the position to match the border */
-    width: 5px; /* Width of the line */
-    background-color: #FFD700; /* Match the color of the border */
-}
-
+        .quote-section blockquote::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -5px;
+            width: 5px;
+            background-color: #FFD700;
+        }
 
         .section {
-    margin-bottom: 30px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1); /* Adjust background color */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
-}
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
 
-.section h2 {
-    margin-top: 0;
-    margin-bottom: 20px; /* Add more space below the heading */
-    font-size: 24px;
-    color: #fff; /* Maintain white color for headings */
-}
+        .section h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #fff;
+        }
 
-.section p {
-    color: #ddd; /* Adjust paragraph text color for better readability */
-}
+        .section p {
+            color: #ddd;
+        }
 
-.section hr {
-    border-color: #FFD700; /* Adjust color of horizontal rule */
-}
+        .section hr {
+            border-color: #FFD700;
+        }
 
-.section:last-child {
-    margin-bottom: 0; /* Remove margin bottom for the last section */
-}
+        .section:last-child {
+            margin-bottom: 0;
+        }
 
-    
         .connect-icons {
             text-align: center;
+            margin: 20px 0; /* Add margin for spacing */
         }
-    
+
         .connect-icons img {
             margin-right: 30px;
             display: inline-block;
             transition: transform 0.3s ease;
             height: 50px;
         }
-    
+
         .connect-icons img:hover {
             transform: scale(1.5);
         }
-    
+
         .skills-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
         }
-    
+
         .skill {
             width: 44%;
             padding: 5px;
@@ -255,115 +227,98 @@
             align-items: center;
             transition: transform 0.5s ease, background-color 0.3s ease;
         }
-    
+
         .skill:hover {
             transform: translateY(-10px);
             background-color: rgba(255, 255, 255, 0.95);
         }
-    
+
         .skill img {
             max-width: 50px;
             height: auto;
             margin-right: 10px;
-            vertical-align: middle;
         }
-    
+
         .skill-description {
             color: #333;
             flex-grow: 1;
         }
-    
+
         blockquote {
-    position: relative; /* Make the blockquote position relative */
-    border-left: 5px solid #FFD700;
-    padding-left: 10px;
-    font-style: italic;
-    font-size: 24px; /* Increase font size */
-    font-weight: bold; /* Make the text bold */
-    margin: 30px 0; /* Adjust margin for spacing */
-    line-height: 1.5; /* Match the line height with the text */
-}
+            position: relative;
+            border-left: 5px solid #FFD700;
+            padding-left: 10px;
+            font-style: italic;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 30px 0;
+            line-height: 1.5;
+        }
 
-blockquote footer {
-    position: absolute; /* Position the footer absolutely */
-    bottom: -50px; /* Adjust the distance from the bottom */
-    left: 0;
-    color: #FFD700; /* Match the color of the line */
-}
+        blockquote footer {
+            position: absolute;
+            bottom: -50px;
+            left: 0;
+            color: #FFD700;
+        }
 
-blockquote::before {
-    content: ''; /* Add a pseudo-element for the line */
-    position: absolute;
-    top: 0;
-    left: -5px; /* Adjust the position to match the border */
-    height: 100%; /* Set height to match the blockquote */
-    width: 5px; /* Width of the line */
-    background-color: #FFD700; /* Match the color of the border */
-}
+        blockquote::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -5px;
+            height: 100%;
+            width: 5px;
+            background-color: #FFD700;
+        }
 
-
-
-    
         footer {
             text-align: right;
             color: #FFD700;
         }
-    
+
         .footer {
             text-align: center;
             margin-top: 20px;
         }
-    
+
         .footer .badge img {
             vertical-align: middle;
         }
-        <style>
-    /* Your existing styles... */
 
-    .project-link {
-        color: #800020; /* Burgundy red text */
-        text-decoration: none; /* Remove default underline */
-        font-size: 18px; /* Increase font size for better readability */
-        font-weight: bold; /* Make the font weight bold for emphasis */
-        letter-spacing: 1px; /* Add slight letter spacing for clarity */
-        padding-bottom: 2px; /* Add some space below the text for the border */
-        position: relative; /* Position relative for pseudo-element */
-        transition: color 0.3s ease; /* Add color transition */
-    }
+        .project-link {
+            color: #800020;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding-bottom: 2px;
+            position: relative;
+            transition: color 0.3s ease;
+        }
 
-    .project-link {
-        color: #800020; /* Burgundy red text */
-        text-decoration: none; /* Remove default underline */
-        font-size: 18px; /* Increase font size for better readability */
-        font-weight: bold; /* Make the font weight bold for emphasis */
-        letter-spacing: 1px; /* Add slight letter spacing for clarity */
-        padding-bottom: 2px; /* Add some space below the text for the border */
-        position: relative; /* Position relative for pseudo-element */
-        transition: color 0.3s ease; /* Add color transition */
-    }
+        .project-link::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(to right, #e0e0e0, #ffffff, #e0e0e0);
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: transform 0.3s ease, visibility 0s linear 0.3s;
+        }
 
-    .project-link::before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 2px; /* Thickness of the border */
-        background: linear-gradient(to right, #e0e0e0, #ffffff, #e0e0e0); /* Silver gradient */
-        visibility: hidden;
-        transform: scaleX(0); /* Initially hide the gradient */
-        transition: transform 0.3s ease, visibility 0s linear 0.3s; /* Add transition */
-    }
+        .project-link:hover::before {
+            visibility: visible;
+            transform: scaleX(1);
+            transition: transform 0.3s ease, visibility 0s linear;
+        }
 
-    .project-link:hover::before {
-        visibility: visible;
-        transform: scaleX(1); /* Expand the gradient to full width on hover */
-        transition: transform 0.3s ease, visibility 0s linear; /* Adjust transition */
-    }
-
-    .project-link:hover {
-        color: #C0C0C0; /* Change text color to a lighter shade of gray on hover */
-    }
+        .project-link:hover {
+            color: #C0C0C0;
+        }
     </style>
     
 </head>
@@ -461,9 +416,7 @@ blockquote::before {
         <div class="section quote-container">
             <div class="quote-section">
                 <blockquote>
-                    <p>"Never theorize before you have data. Invariably, you end up twisting facts to suit theories, instead
-                        of theories to suit facts. The temptation to form premature theories upon insufficient data is the
-                        bane of our profession."</p>
+                    <p>"Never theorize before you have data. Invariably, you end up twisting facts to suit theories, instead of theories to suit facts. The temptation to form premature theories upon insufficient data is the bane of our profession."</p>
                     <footer>
                         — Sherlock Holmes
                     </footer>
