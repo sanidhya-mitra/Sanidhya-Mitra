@@ -39,7 +39,6 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
 
 ## Examples of Work 👀:
 
-<details><summary>Click To View Dashboards</summary>
 <p>
 
 <div align="center">
@@ -82,7 +81,6 @@ Click Here to Explore
 </div><br>
 
 </p>
-</details>
 
 ## Favorite Quote 📜:
 
