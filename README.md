@@ -7,6 +7,7 @@ I'm **Sanidhya Mitra**, a **Data Analyst** with a deep passion for transforming 
 ---
 ## Philosophy:
 Guided by the principle of Sherlock Holmes, **"Never theorize before you have data"**,  I investigate complex datasets and delve into the depths of data to unearth insights. I believe in digging deep into data to uncover not just the 'what' but the 'why' and 'how', helping businesses navigate through the fog of uncertainty and into clear, strategic outcomes.
+Expanding my roles in PMO, by marrying data insights with strategic execution, I help organizations not only to translate data into impactful decisions and drive successful project outcomes, but also enhance the operational efficiency and project management.
 
 ## Core Competencies 🛠️:
 
@@ -32,7 +33,7 @@ Guided by the principle of Sherlock Holmes, **"Never theorize before you have da
     <td align="center"><img alt="Git" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/><br>Git</td>
     <td align="center"><img alt="MySQL" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/><br>MySQL</td>
     <td align="center"><img alt="GitHub" width="35px" src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"/><br>GitHub</td>
-    <td align="center"><img alt="Git" width="35px" src="https://www.svgrepo.com/show/373718/jupyter.svg"/><br>Jupyter Lab</td>
+    <td align="center"><img alt="Git" width="35px" src="https://cdn.worldvectorlogo.com/logos/jira-1.svg"/><br>JIRA</td>
 </tr>
 </table>
 
